@@ -1,5 +1,3 @@
-"""bot.py — Telegram‑меню + Avito‑парсер + ЦИАН-парсер"""
-
 import asyncio
 import json
 import os
