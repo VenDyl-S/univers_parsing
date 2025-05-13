@@ -1,5 +1,3 @@
-"""parser_cian.py — Парсер для ЦИАН"""
-
 import json
 import logging
 import random
@@ -20,10 +18,6 @@ from db_service import SQLiteDBHandler
 MAX_PHOTOS = 3
 
 class CianParse:
-    """
-    HTML-парсер ЦИАН без GUI/Excel.
-    """
-
     def __init__(
         self,
         url: list,
